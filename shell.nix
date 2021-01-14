@@ -6,9 +6,8 @@ mkShell {
   '';
   buildInputs = [
     pandoc
-    plantuml
     python38
     python38.pkgs.pipx
-    zeromq
+    python38.pkgs.pyzmq
   ];
 }
