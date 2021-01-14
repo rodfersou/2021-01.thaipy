@@ -5,6 +5,7 @@ mkShell {
     echo "Starting Jupyter environment"
   '';
   buildInputs = [
+    pandoc
     plantuml
     python38
     python38.pkgs.pipx
